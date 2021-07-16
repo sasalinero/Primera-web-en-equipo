@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+}
+.container {
+  border: solid 2px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.equipo {
+  border: solid rgb(36, 205, 211) 2px;
+}
+
+.fd {
+  border: solid rgb(42, 211, 36) 2px;
+}
+.header {
+  border: solid rgb(211, 135, 36) 2px;
+}
+.foot {
+  border: solid rgb(36, 205, 211) 2px;
+}
+.who {
+  border: solid rgb(211, 36, 211) 2px;
+}
+
+.menu {
+  list-style-type: none;
+  justify-content: ;
+  display: flex;
+  flex-wrap: wrap;
+  top: 200px;
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-flex;
+  background-color: chartreuse;
+}
+
+.item {
+  justify-content: space-arround;
+}
