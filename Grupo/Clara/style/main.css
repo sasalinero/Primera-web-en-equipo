@@ -1,3 +1,124 @@
+<<<<<<< HEAD
+:root {
+  --white: white;
+  --blue: #099d8d;
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+h1 {
+  color: var(--white);
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+.header {
+  background-color: var(--blue);
+  position: fixed;
+  width: 100%;
+  /* justify-content: center;
+    align-items: center; */
+  padding-top: 15px;
+  /*  justify-content: space-between; */
+  z-index: 2;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: #14d9c4;
+}
+.menu {
+  border-top: var(--white);
+  height: 30px;
+  width: 100%;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.item {
+  display: inline-block;
+  margin: 0px;
+}
+ul li a {
+  text-decoration: none;
+  color: var(--white);
+  padding: 21.5px;
+  font-family: "Courier New", Courier, monospace;
+  /* margin: 0px; */
+
+  /* display: flex;
+    justify-content: space-between;
+    align-content: center; */
+}
+ul li a:hover {
+  background-color: #099d8e7a;
+}
+.container {
+  /*  border: solid 2px; */ /* modificado */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+/* .hero {
+    width: 100%;
+  } */
+.ImageHero {
+  width: 100%;
+  margin-bottom: -40px;
+}
+
+.textimage {
+  background-color: #ffffff;
+
+  /* display: flex;
+    justify-content: center;
+    text-align: center; */
+  position: relative;
+  z-index: 1;
+  /* border: black solid 1px; */
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0px;
+  font-family: "Courier New", Courier, monospace;
+}
+.text1 {
+  padding: 15px;
+}
+.equipo {
+  border: solid rgb(36, 205, 211) 2px;
+}
+
+.fortalezasDebilidades {
+  border: solid rgb(42, 211, 36) 2px;
+}
+
+.foot {
+  border: solid rgb(36, 205, 211) 2px;
+}
+.who {
+  border: solid rgb(211, 36, 211) 2px;
+}
+
+/* .menu {
+    list-style-type: none;
+    justify-content: ;
+    display: flex;
+    flex-wrap: wrap;
+    top: 200px;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-flex;
+    background-color: chartreuse;
+  }
+   */
+.item {
+  justify-content: space-arround;
+}
+=======
 :root {
   --white: white;
   --blue: #099d8d;
@@ -117,3 +238,4 @@ ul li a:hover {
 .item {
   justify-content: space-arround;
 }
+>>>>>>> 1cea08c75d7429f89b3def91dc0db848027dbd0e
