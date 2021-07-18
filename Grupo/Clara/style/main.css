@@ -57,7 +57,7 @@ ul li a:hover {
   background-color: #099d8e7a;
 }
 .container {
-  border: solid 2px;
+  /*  border: solid 2px; */ /* modificado */
   display: flex;
   flex-direction: column;
   text-align: center;
