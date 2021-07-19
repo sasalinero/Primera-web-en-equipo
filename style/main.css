@@ -15,17 +15,20 @@ h1 {
   color: var(--white);
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 15px;
   font-family: "Rubik", sans-serif;
+  padding-bottom: 15px;
 }
 .header {
   background-color: var(--blue-green);
   position: fixed;
   width: 100%;
+  height: 60px;
   padding-top: 15px;
+  padding-bottom: 15px;
   z-index: 2;
 }
-nav {
+
+.menuHeader {
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -47,8 +50,9 @@ nav {
 ul li a {
   text-decoration: none;
   color: var(--white);
-  padding: 21.5px;
   font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  padding: 8px;
 }
 ul li a:hover {
   background-color: #099d8e7a;
@@ -63,6 +67,7 @@ ul li a:hover {
   width: 100%;
   margin-bottom: -40px;
 }
+
 .textimage {
   background-color: #ffffff;
   position: relative;
@@ -74,11 +79,15 @@ ul li a:hover {
 }
 .text1 {
   padding: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
+
 .equipo {
   align-items: center;
-  margin-top: 30px;
   margin-bottom: 30px;
+  margin-top: 46px;
 }
 
 .team-section {
@@ -86,8 +95,6 @@ ul li a:hover {
   font-size: 24px;
   color: #14d9c4;
   text-transform: uppercase;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .fortalezasDebilidades {
@@ -97,6 +104,7 @@ ul li a:hover {
 .item {
   justify-content: space-arround;
 }
+
 .parrafoIra {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -106,6 +114,7 @@ ul li a:hover {
   margin-right: 15px;
   margin-bottom: 30px;
 }
+
 .titulares {
   font-family: "Rubik", sans-serif;
   font-size: 22px;
@@ -113,38 +122,6 @@ ul li a:hover {
   text-transform: capitalize;
   margin-top: 30px;
   margin-bottom: 15px;
-}
-.arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #f00;
-}
-.foot {
-  border: solid rgb(36, 205, 211) 2px;
-}
-.container-footer {
-  display: flex;
-  justify-content: center;
-  margin: 0 15px;
-}
-.copy {
-  color: gray;
-  font-size: 16px;
-  margin: 20px;
-}
-.menu_footer {
-  position: static;
-  margin: 20px;
-}
-.img_footer {
-  position: relative;
-}
-.img_footer img {
-  width: 30%;
-  margin: 20px;
-  text-decoration: none;
 }
 
 .who {
@@ -159,7 +136,7 @@ ul li a:hover {
   margin: 0 auto;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
-  margin-top: 45px;
+  margin-top: 30px;
   margin-bottom: 15px;
 }
 .image {
@@ -203,6 +180,7 @@ p {
   margin-bottom: 15px;
   padding: 10px;
 }
+
 .rrss {
   display: flex;
   flex-direction: row;
@@ -213,12 +191,53 @@ p {
   margin-left: var(--margin-left);
   margin-right: var(--margin-right);
 }
+
 .icon {
   width: 18px;
 }
+
 .point {
   color: #54585a;
   font-size: 18px;
   height: 30px;
   padding-top: 0px;
+}
+
+containerFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+}
+
+.copy {
+  color: #b8b8b9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 30px;
+}
+
+.menuFooter {
+  width: 100%;
+  padding: 1px;
+}
+
+.footerlist itemFooter {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #1c1c53;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.img_footer {
+  position: relative;
+}
+
+.img_footer img {
+  width: 30%;
+  margin: 30px;
+  text-decoration: none;
+  justify-content: center;
 }
