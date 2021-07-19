@@ -23,7 +23,7 @@
 .tittle {
   color: var(--white);
   text-transform: uppercase;
-  padding-bottom: 22px;
+  padding-bottom: 23px;
   padding-top: 22px;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
@@ -48,7 +48,7 @@
   color: var(--white);
   font-family: Rubik, sans-serif;
   font-size: 15px;
-  padding: 10px 10px;
+  padding: 15px 10px;
   height: 45px;
   width: 100%;
 }
@@ -86,7 +86,7 @@
 .equipo {
   align-items: center;
   margin-bottom: 30px;
-  margin-top: 46px;
+  margin-top: 30px;
 }
 
 .team-section {
@@ -94,6 +94,7 @@
   font-size: 24px;
   color: #14d9c4;
   text-transform: uppercase;
+  padding: 20px;
 }
 
 .fortalezasDebilidades {
@@ -111,7 +112,7 @@
   background-color: white;
   width: 30px;
   height: 30px;
-  transform: translate(-20px, 639px) rotate(45deg);
+  transform: translate(-10px, 666px) rotate(45deg);
 }
 
 .item {
@@ -234,34 +235,37 @@ containerFooter {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   text-align: center;
-  margin: 30px;
+  margin: 20px;
 }
 
 .menuFooter {
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
 .menuFooter .itemFooter a {
   width: 100%;
   padding: 1px;
   text-decoration: none;
-  color: #54585a;
   line-height: 20px;
-}
-
-.itemFooter {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bolder;
+  color: #54585a;
 }
 
 .img_footer {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img_footer img {
-  width: 30%;
+  width: 115.9px;
   margin: 30px;
   text-decoration: none;
-  justify-content: center;
 }
