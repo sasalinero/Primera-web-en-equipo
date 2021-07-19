@@ -108,23 +108,10 @@
 }
 
 .rectangle {
-<<<<<<< HEAD
-  box-sizing: border-box;
-  background-color: rgb(255, 255, 255);
-  width: 30px;
-  height: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  transform: rotate(45deg) translate(-70%, 0px);
-}
-.fortalezasDebilidades {
-  background-color: rgba(184, 184, 185, 0.2);
-=======
   background-color: white;
   width: 30px;
   height: 30px;
   transform: translate(-20px, 639px) rotate(45deg);
->>>>>>> 2e88765750b378a5e0a22b4f641ed9cc3f1686c3
 }
 
 .item {
@@ -166,10 +153,7 @@
   margin-top: 30px;
   margin-bottom: 15px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 2e88765750b378a5e0a22b4f641ed9cc3f1686c3
 .image-who {
   width: 100%;
 }
@@ -238,7 +222,7 @@
   padding-top: 0px;
 }
 
-.containerFooter {
+containerFooter {
   display: flex;
   flex-direction: column;
   justify-content: center;
