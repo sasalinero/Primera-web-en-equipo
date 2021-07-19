@@ -23,55 +23,36 @@
 .tittle {
   color: var(--white);
   text-transform: uppercase;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding-bottom: 22px;
+  padding-top: 22px;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   background-color: var(--blue-green);
 }
 .menuHeader {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  background-color: #14d9c4;
+  /* background-color: #14D9C4; */
   width: 100%;
 }
 .menu {
-  border-top: var(--white);
   text-transform: uppercase;
-  /* padding-top: 20px;
-  padding-bottom: 20px; */
   background-color: #14d9c4;
-  width: 100%;
-  height: 45px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .item {
   display: flex;
-  /* height: 45px; */
-  /* padding-top: 8px;
-  padding-bottom: 8px; */
-  text-decoration: none;
-  color: var(--white);
-  padding-top: 8px;
-  padding-bottom: 8px;
-  background-color: #14d9c4;
-  line-height: 30px;
-}
-
-.linkHeader {
-  padding-right: 17px;
-  padding-left: 17px;
 }
 .menu .item .linkHeader {
+  display: flex;
   text-decoration: none;
   color: var(--white);
-  font-family: "Rubik", sans-serif;
+  font-family: Rubik, sans-serif;
   font-size: 15px;
+  padding: 10px 10px;
+  height: 45px;
+  width: 100%;
 }
-
-.menu .item:hover {
+.menu .item .linkHeader:hover {
   background-color: #099d8e7a;
 }
 .container {
@@ -79,7 +60,6 @@
   flex-direction: column;
   text-align: center;
 }
-
 .ImageHero {
   width: 100%;
   height: 316px;
@@ -94,7 +74,9 @@
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 0px;
+  font-family: "Open sans";
 }
+
 .text1 {
   padding: 15px;
   font-family: "Open sans";
