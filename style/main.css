@@ -11,50 +11,67 @@
   --mayus: uppercase;
 }
 
-h1 {
-  color: var(--white);
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Rubik", sans-serif;
-  padding-bottom: 15px;
-}
 .header {
-  background-color: var(--blue-green);
   position: fixed;
   width: 100%;
   height: 60px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
   z-index: 2;
+  text-align: center;
 }
-
+.tittle {
+  color: var(--white);
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  background-color: var(--blue-green);
+}
 .menuHeader {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
-  padding-bottom: 20px;
   background-color: #14d9c4;
+  width: 100%;
 }
 .menu {
   border-top: var(--white);
-  height: 30px;
-  width: 100%;
   text-transform: uppercase;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  background-color: #14d9c4;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
 }
 .item {
-  display: inline-block;
-  margin: 0px;
+  display: flex;
+  /* height: 45px; */
+  /* padding-top: 8px;
+  padding-bottom: 8px; */
+  text-decoration: none;
+  color: var(--white);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #14d9c4;
+  line-height: 30px;
 }
-ul li a {
+
+.linkHeader {
+  padding-right: 17px;
+  padding-left: 17px;
+}
+.menu .item .linkHeader {
   text-decoration: none;
   color: var(--white);
   font-family: "Rubik", sans-serif;
   font-size: 15px;
-  padding: 8px;
 }
-ul li a:hover {
+
+.menu .item:hover {
   background-color: #099d8e7a;
 }
 .container {
@@ -65,23 +82,22 @@ ul li a:hover {
 
 .ImageHero {
   width: 100%;
+  height: 316px;
+  position: relative;
+  margin-top: 90px;
   margin-bottom: -40px;
 }
-
 .textimage {
   background-color: #ffffff;
   position: relative;
   z-index: 1;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top: 0px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open sans";
 }
 .text1 {
   padding: 15px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
 }
 
 .equipo {
@@ -97,8 +113,19 @@ ul li a:hover {
   text-transform: uppercase;
 }
 
+.rectangle {
+  background-color: rgb(82, 32, 32);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  transform: rotate(45deg) translate(-70%, 0px);
+}
 .fortalezasDebilidades {
-  background-color: #b8b8b9;
+  background-color: rgba(184, 184, 185, 0.2);
 }
 
 .item {
@@ -219,20 +246,25 @@ containerFooter {
 }
 
 .menuFooter {
+  background-color: white;
+}
+.menuFooter .itemFooter a {
   width: 100%;
   padding: 1px;
+  text-decoration: none;
+  color: #54585a;
+  line-height: 20px;
 }
 
-.footerlist itemFooter {
+.itemFooter {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #1c1c53;
   text-transform: uppercase;
   font-weight: bolder;
 }
 
 .img_footer {
-  position: relative;
+  display: flex;
 }
 
 .img_footer img {
