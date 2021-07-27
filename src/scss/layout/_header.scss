@@ -81,10 +81,12 @@ a {
 
   .linkHeader {
     padding: 15px 18px;
+    transition: box-shadow ease 0.5s;
   }
 
   .linkHeader:hover {
     color: $color-aqua;
+    box-shadow: 0 5px 8px rgb(122, 120, 120);
   }
 }
 
