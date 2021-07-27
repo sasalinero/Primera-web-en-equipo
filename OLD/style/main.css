@@ -1,0 +1,549 @@
+/* MOBILE */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --white: white;
+  --black: black;
+  --blue-green: #099d8d;
+  --aqua: #14d9c4;
+  --margin-right: auto;
+  --margin-left: auto;
+  --mayus: uppercase;
+  --rubik: "Rubik", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+  z-index: 2;
+  text-align: center;
+}
+.tittle {
+  color: var(--white);
+  text-transform: uppercase;
+  padding-bottom: 23px;
+  padding-top: 22px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  background-color: var(--blue-green);
+}
+.menuHeader {
+  /* background-color: #14D9C4; */
+  width: 100%;
+}
+.menu {
+  text-transform: uppercase;
+  background-color: #14d9c4;
+  display: flex;
+  justify-content: space-evenly;
+}
+.item {
+  display: flex;
+}
+.menu .item .linkHeader {
+  display: flex;
+  text-decoration: none;
+  color: var(--white);
+  font-family: Rubik, sans-serif;
+  font-size: 15px;
+  padding: 15px 10px;
+  height: 45px;
+  width: 100%;
+}
+.menu .item .linkHeader:hover {
+  background-color: #099d8e7a;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ImageHero {
+  width: 100%;
+  height: 316px;
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: -40px;
+}
+.textimage {
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 0px;
+  font-family: "Open sans";
+}
+
+.text1 {
+  padding: 15px;
+  font-family: "Open sans";
+  font-weight: bold;
+}
+
+.equipo {
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.team-section {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  color: #14d9c4;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.fortalezasDebilidades {
+  background-color: rgba(184, 184, 185, 0.2);
+}
+
+/* .contenedor {
+  /* position: absolute; 
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+} */
+
+/* .rectangle {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  transform: translate(-10px, 666px) rotate(45deg);
+} */
+
+.item {
+  justify-content: space-arround;
+}
+
+.parrafoIra {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #54585a;
+  line-height: 1.5;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.titulares {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  color: #099d8d;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.who {
+  padding-top: 30px;
+  margin: 0 15px;
+  /* overflow-y: auto;  */
+}
+
+.image-container {
+  box-sizing: border-box;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.image-who {
+  width: 100%;
+}
+
+#who-we-are {
+  height: 45px;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+  margin-right: var(--margin-right);
+  margin-left: var(--margin-left);
+  text-transform: var(--mayus);
+}
+
+.nombres {
+  height: 45px;
+  font-family: "Open Sans";
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: normal;
+  line-height: 2.25;
+  margin-right: var(--margin-right);
+  margin-left: var(--margin-left);
+  color: var(--black);
+}
+
+.parrafo-who {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 500;
+  color: #54585a;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.rrss {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 30px;
+  width: 124px;
+  justify-content: space-between;
+  margin-left: var(--margin-left);
+  margin-right: var(--margin-right);
+}
+
+.fab {
+  width: 15px;
+  color: #099d8d;
+}
+.fas {
+  width: 15px;
+  color: #099d8d;
+}
+.point {
+  color: #54585a;
+  font-size: 18px;
+  height: 30px;
+  padding-top: 0px;
+}
+
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px;
+}
+
+.copy {
+  color: #b8b8b9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px;
+}
+
+.menuFooter {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.menuFooter .itemFooter a {
+  width: 100%;
+  padding: 1px;
+  text-decoration: none;
+  line-height: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #54585a;
+}
+
+.img_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_footer img {
+  width: 115.9px;
+  margin: 30px;
+  text-decoration: none;
+}
+/* TABLET*/
+
+@media all and (min-width: 768px) {
+  .header {
+    /* position: fixed;
+    width: 100%;
+    height: 60px;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    /*z-index: 2;
+    text-align: center;
+    box-sizing: content-box;*/
+
+    /*border: solid black;*/
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 60px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--blue-green);
+    font-family: var(--rubik);
+  }
+
+  .tittle {
+    /* color: var(--white);
+    text-transform: uppercase;
+    padding-bottom: 23px;
+    padding-top: 22px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    background-color: var(--blue-green);*/
+
+    /* border: solid blue;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-left: 45px;
+    width: 50%;
+  }
+  .menu {
+    /*text-transform: uppercase;
+    background-color: #14d9c4;
+    display: flex;
+    justify-content: space-evenly;*/
+
+    /* border: solid green;*/
+    height: 60px;
+
+    background-color: transparent;
+    display: flex;
+  }
+  .item {
+    /*border: solid rgb(255, 5, 5);*/
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: transparent;
+    text-align: center;
+    align-content: center;
+    padding-top: 7px; /*chaou arreglar*/
+  }
+  .menu .item .linkHeader:hover {
+    background-color: var(--aqua);
+  }
+
+  /*.container {
+    border: solid blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }*/
+  .ImageHero {
+    width: 100vw;
+    height: auto;
+    /*position: relative;*/
+    margin-top: 0;
+    margin-bottom: -48px;
+  }
+  .textimage {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    z-index: 1;
+    margin-left: 46px;
+    margin-right: 281px;
+    top: -35px;
+    padding: 15px 30px 15px 30px;
+    width: 50%;
+    height: 80px;
+    text-align: left;
+  }
+
+  .text1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.39;
+  }
+}
+/*.fortalezasDebilidades {
+    background-color: rgba(184, 184, 185, 0.2);
+}*/
+
+.contenedor {
+  position: absolute;
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+  border: solid rgb(105, 105, 138);
+}
+.parrafoIra {
+  border: solid blue;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 40%;
+}
+
+.rectangle {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  transform: translate(-10px, 666px) rotate(45deg);
+}
+.titulares {
+  border: solid blue;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 50%;
+}
+/* DESKTOP MEDIAQUERIES */
+
+@media screen and (min-width: 1200px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+  }
+
+  .tittle {
+    padding: 15px 0px 15px 142px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .menuHeader {
+    padding-right: 138px;
+    padding-left: 466px;
+  }
+
+  .menu .item .linkHeader {
+    padding: 0px;
+  }
+  .linkHeader {
+    text-align: center;
+    line-height: 45px;
+  }
+  .Hero {
+    height: 550px;
+  }
+
+  .container {
+    box-sizing: border-box;
+  }
+
+  .ImageHero {
+    height: 550px;
+  }
+
+  .textimage {
+    margin-left: 138px;
+    margin-right: 488px;
+    width: 574px;
+    height: 90px;
+    padding: none;
+  }
+
+  .text1 {
+    font-size: 24px;
+  }
+
+  .fortalezasDebilidades {
+    display: flex;
+  }
+
+  .fortalezasDebilidades1 {
+    padding-left: 122px;
+    padding-right: 22px;
+  }
+
+  .fortalezasDebilidades2 {
+    padding-right: 122px;
+    padding-left: 22px;
+  }
+
+  .parrafoIra {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .who {
+    margin: 0 138px;
+  }
+
+  .image-container {
+    width: 278px;
+    height: 278px;
+    margin: 0px;
+  }
+
+  .image-who {
+    width: 270px;
+    height: 270px;
+  }
+  /*.Clara {
+  }*/
+}
+/*TABLET SAM*/
+@media (min-width: 768px) {
+  .image-who {
+    width: 205px;
+    height: 205px;
+  }
+  .Clara {
+    display: flex;
+  }
+  .nombres {
+    margin: 0%;
+    height: 45px;
+    /* left: 281px;
+    right: 340px; */
+    white-space: nowrap;
+    position: relative;
+    top: 10px;
+    left: 60px;
+  }
+  .parrafo-who {
+    text-align: start;
+    position: relative;
+    top: 50px;
+    left: -60px;
+  }
+
+  .rrss {
+    position: relative;
+    top: 500px;
+  }
+  .containerFooter {
+    display: flex;
+  }
+  .copy {
+    text-align: start;
+    position: relative;
+    top: 20px;
+    display: block;
+    bottom: 120px;
+  }
+
+  .menuFooter {
+    justify-content: flex-end;
+    text-align: end;
+    position: relative;
+    height: 30px;
+    box-sizing: border-box;
+    display: block;
+  }
+  .img_footer {
+    display: block;
+    bottom: 0%;
+    height: 120px;
+    position: relative;
+  }
+}

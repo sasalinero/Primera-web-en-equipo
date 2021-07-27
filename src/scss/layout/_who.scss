@@ -1,0 +1,196 @@
+.who {
+  padding-top: 30px;
+  margin: 0 15px;
+  overflow-y: auto;
+}
+
+.image-container {
+  box-sizing: border-box;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.image-who {
+  width: 100%;
+  border-radius: 5px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+}
+
+#who-we-are {
+  height: 45px;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color-bluegreen;
+  margin-right: $margin-right;
+  margin-left: $margin-left;
+  text-transform: $mayus;
+}
+
+.nombre-one {
+  height: 45px;
+  font-family: "Open Sans";
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: normal;
+  line-height: 2.25;
+  margin-right: $margin-right;
+  margin-left: $margin-left;
+  color: $color-black;
+}
+
+.parrafo-who-one {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 500;
+  color: $color-gunmetal;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.rrss-one {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  width: 124px;
+  justify-content: space-between;
+  margin-left: $margin-left;
+  margin-right: $margin-right;
+}
+
+.nombre-two {
+  height: 45px;
+  font-family: "Open Sans";
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: normal;
+  line-height: 2.25;
+  margin-right: $margin-right;
+  margin-left: $margin-left;
+  color: $color-black;
+}
+
+.parrafo-who-two {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 500;
+  color: $color-gunmetal;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.rrss-two {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  width: 124px;
+  justify-content: space-between;
+  margin-left: $margin-left;
+  margin-right: $margin-right;
+}
+
+.fab {
+  width: 15px;
+  color: $color-bluegreen;
+}
+
+.fas {
+  width: 15px;
+  color: $color-bluegreen;
+}
+
+.point {
+  color: $color-gunmetal;
+  font-size: 18px;
+  height: 30px;
+  padding-top: 0px;
+}
+
+/* TABLET MEDIAQUERIES */
+/* HEADER */
+
+@media screen and (min-width: 768px) {
+  .name-container-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 44px;
+  }
+
+  .image-who {
+    width: 280px;
+    height: 280px;
+  }
+
+  .text-container-one {
+    margin-left: 35px;
+    padding: 10px;
+  }
+
+  .nombre-one {
+    text-align: left;
+  }
+
+  .parrafo-who-one {
+    text-align: left;
+    padding: 0;
+  }
+
+  .rrss-one {
+    width: 200px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .name-container-two {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 44px;
+  }
+
+  .text-container-two {
+    margin-right: 35px;
+    padding: 10px;
+  }
+
+  .nombre-two {
+    text-align: right;
+  }
+
+  .parrafo-who-two {
+    text-align: right;
+    padding: 0;
+  }
+
+  .rrss-two {
+    width: 200px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+}
+
+/* DESKTOP MEDIAQUERIES */
+/* HEADER */
+
+@media screen and (min-width: 1200px) {
+  .Name-container {
+    margin-left: 138px;
+    margin-right: 138px;
+  }
+}

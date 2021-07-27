@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+  </head>
+
+  <body>
+    <section class="contacto">
+      <h2 class="contacto-section">Contacto</h2>
+      <p class="parrafocontacto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+        recusandae quod ipsa porro laboriosam nemo repellat id voluptate velit
+        enim soluta, maiores repellendus accusamus quisquam, quasi sit
+        repudiandae. Perferendis, laudantium.
+      </p>
+      <p class="parrafo-small">
+        Todos los campos marcados con <span class="form-asterisk">*</span> son
+        obligatorios
+      </p>
+    </section>
+    <section>
+      <form class="form" action="/signup" method="GET">
+        <fieldset class="datos-personales">
+          <label class="text-form" for="firstName"
+            >Nombre completo <span class="form-asterisk">*</span></label
+          >
+          <input
+            class="nombrecompleto"
+            type="text"
+            name="nombre"
+            placeholder="Nombre..."
+            required
+          />
+
+          <fielset class="private-info">
+            <div class="container-email">
+              <label class="text-form" for="email"
+                >Email <span class="form-asterisk">*</span></label
+              >
+              <input
+                class="email"
+                type="text"
+                name="apellido"
+                placeholder="hola@hola.com"
+                required
+              />
+            </div>
+            <div class="container-telephone">
+              <label class="text-form" for="tel"
+                >Teléfono <span class="form-asterisk">*</span></label
+              >
+              <input
+                class="telefono"
+                type="telefono"
+                name="telefono"
+                placeholder="Ej:12345678"
+                required
+              />
+            </div>
+          </fielset>
+        </fieldset>
+        <fieldset class="mensaje-container">
+          <label class="text-form" for="mensaje"
+            >Mensaje <span class="form-asterisk">*</span></label
+          >
+          <textarea
+            class="mensaje"
+            name="mensaje"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="¿Qué necesitas?"
+            required
+          ></textarea>
+        </fieldset>
+        <div class="enviar-container">
+          <input class="enviar" type="submit" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

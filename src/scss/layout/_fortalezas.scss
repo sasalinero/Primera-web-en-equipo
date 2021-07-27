@@ -1,0 +1,71 @@
+.fortalezasDebilidades {
+  background-color: rgba(184, 184, 185, 0.2);
+}
+
+/* .contenedor {
+   position: absolute;
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%; 
+} */
+
+.rectangle {
+  background-color: $font-menu;
+  width: 30px;
+  height: 30px;
+  transform: translateY(50%) rotate(45deg);
+  margin: auto;
+}
+
+.parrafo-equipo {
+  font-family: $opensans-font;
+  font-size: 16px;
+  color: $color-gunmetal;
+  line-height: 1.5;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.titulares {
+  font-family: $rubik;
+  font-size: 22px;
+  color: $color-bluegreen;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+/* TABLET MEDIAQUERIES */
+@media screen and (min-width: 768px) {
+  .fortalezasDebilidades {
+    display: flex;
+    padding: 45px;
+  }
+  /* .fortalezasDebilidades1 {
+    padding-left: 122px;
+    padding-right: 22px;
+    width: 50%;
+  }
+  .fortalezasDebilidades2 {
+    padding-right: 122px;
+    padding-left: 22px;
+    width: 50%;
+  } */
+}
+
+/* DESKTOP MEDIAQUERIES */
+@media screen and (min-width: 1200px) {
+  .fortalezasDebilidades {
+    display: flex;
+  }
+  .fortalezasDebilidades1 {
+    padding-left: 122px;
+    padding-right: 22px;
+    width: 50%;
+  }
+  .fortalezasDebilidades2 {
+    padding-right: 122px;
+    padding-left: 22px;
+    width: 50%;
+  }
+}
