@@ -12,7 +12,7 @@
 }
 .image-hero {
   max-width: 100%;
-  height: auto;
+  // height: auto;
 }
 
 .text-rectangle {
@@ -23,6 +23,7 @@
   margin-right: 15px;
   margin-top: 0px;
   font-family: "Open sans";
+  transform: translateY(-20px);
 }
 
 .claim {
@@ -34,13 +35,8 @@
 /* TABLET MEDIAQUERIES */
 /* HEADER */
 @media screen and (min-width: 768px) {
-  .Hero {
-    height: 421px;
-  }
-
-  // .ImageHero {
-  //   height: 100%;
-  //   margin: 0px;
+  // .Hero {
+  //   height: 421px;
   // }
 
   .text-rectangle {
@@ -63,9 +59,9 @@
 /* HEADER */
 
 @media screen and (min-width: 1200px) {
-  .Hero {
-    height: 550px;
-  }
+  // .Hero {
+  //   height: 550px;
+  // }
 
   // .textimage {
   //   height: 90px;
