@@ -91,10 +91,13 @@ textarea {
   margin: 30px 0 60px 0;
   border-radius: 4px;
   border: transparent;
+  transition: box-shadow ease 1s, border-radius ease 2s;
 }
 
 .enviar:hover {
   color: $color-aqua;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 3);
+  border-radius: 15px;
 }
 
 /*TABLET*/

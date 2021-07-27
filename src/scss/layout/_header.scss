@@ -16,6 +16,23 @@
   font-size: 16px;
   height: 60px;
   line-height: 60px;
+  animation-duration: 2s;
+  animation-name: title;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes title {
+  from {
+    transform: scale(10) rotate(-150deg);
+    opacity: 0.5;
+    color: $font-menu;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .menuHeader {
@@ -41,6 +58,7 @@
 
 .linkHeader {
   padding: 10px 10px;
+  transition: color ease 3s;
 }
 
 .linkHeader:hover {
@@ -80,10 +98,12 @@ a {
 
   .linkHeader {
     padding: 15px 18px;
+    transition: box-shadow ease 0.5s;
   }
 
   .linkHeader:hover {
     color: $color-aqua;
+    box-shadow: 0 5px 8px rgb(122, 120, 120);
   }
 }
 
