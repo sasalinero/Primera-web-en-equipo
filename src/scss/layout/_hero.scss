@@ -3,7 +3,7 @@
 }
 .image-hero {
   max-width: 100%;
-  height: auto;
+  // height: auto;
 }
 
 .text-rectangle {
@@ -13,7 +13,12 @@
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 0px;
+<<<<<<< HEAD
   font-family: $opensans-font;
+=======
+  font-family: "Open sans";
+  transform: translateY(-20px);
+>>>>>>> 1377f552bd6429dbb374dd55cb363d792d5dcbdd
 }
 
 .claim {
@@ -25,9 +30,15 @@
 /* TABLET MEDIAQUERIES */
 /* HEADER */
 @media screen and (min-width: 768px) {
+<<<<<<< HEAD
   .Hero {
     height: 421px;
   }
+=======
+  // .Hero {
+  //   height: 421px;
+  // }
+>>>>>>> 1377f552bd6429dbb374dd55cb363d792d5dcbdd
 
   .text-rectangle {
     height: 80px;
@@ -49,9 +60,9 @@
 /* HEADER */
 
 @media screen and (min-width: 1200px) {
-  .Hero {
-    height: 550px;
-  }
+  // .Hero {
+  //   height: 550px;
+  // }
 
   .claim {
     font-size: 24px;
