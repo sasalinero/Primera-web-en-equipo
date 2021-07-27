@@ -16,6 +16,23 @@
   font-size: 16px;
   height: 60px;
   line-height: 60px;
+  animation-duration: 2s;
+  animation-name: title;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes title {
+  from {
+    transform: scale(10) rotate(-150deg);
+    opacity: 0.5;
+    color: $font-menu;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .menuHeader {
