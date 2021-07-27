@@ -5,16 +5,16 @@
 }
 
 .contacto-section {
-  font-family: "Rubik", sans-serif;
+  font-family: $rubik;
   font-size: 24px;
-  color: #099d8d;
+  color: $color-bluegreen;
   text-transform: uppercase;
   text-align: center;
 }
 .parrafocontacto {
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  color: #54585a;
+  font-family: $opensans-font;
+  color: $color-gunmetal;
   margin: 15px 0;
   padding: 20px;
   text-align: center;
@@ -24,14 +24,14 @@
 .parrafo-small {
   width: 100%;
   margin: 15px 0 58px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $opensans-font;
   font-size: 12px;
   line-height: 1.5;
-  color: #54585a;
+  color: $color-gunmetal;
   text-align: center;
 }
 .form-asterisk {
-  color: #14d9c4;
+  color: $color-aqua;
 }
 /*FORMULARIO*/
 
@@ -40,16 +40,16 @@ textarea {
   /* -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;*/
-  color: #b8b8b9;
+  color: $cool-grey;
   box-sizing: border-box;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: $opensans-font;
 }
 
 .form {
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  color: #54585a;
+  font-family: $opensans-font;
+  color: $color-gunmetal;
   padding: 0 15px 0 15px;
   box-sizing: border-box;
   display: flex;
@@ -60,32 +60,32 @@ textarea {
 .datos-personales,
 .mensaje-container {
   border: transparent;
-  width: 80vw;
+  width: 290px;
 }
 
 .nombrecompleto,
 .email,
 .telefono {
   font-size: 14px;
-  width: 80vw;
+  width: 290px;
   height: 2.813rem;
   padding-left: 15px;
-  color: #b8b8b9;
+  color: $cool-grey;
   margin: 7px 0 13px 0;
 }
 
 .mensaje {
-  width: 80vw;
+  width: 290px;
   height: 105px;
   padding: 15px 0 0 15px;
   margin: 7px 0 13px 0;
 }
 
 .enviar {
-  width: 18.125rem;
+  width: 290px;
   height: 45px;
-  color: white;
-  background-color: #099d8d;
+  color: $font-menu;
+  background-color: $color-bluegreen;
   text-transform: uppercase;
   text-align: center;
   margin: 30px 0 60px 0;
@@ -105,7 +105,7 @@ textarea {
 @media all and (min-width: 768px) {
   .parrafocontacto,
   .parrafo-small {
-    width: 80vw;
+    width: 442px;
     margin: 0 auto 0 auto;
   }
   .datos-personales,
@@ -114,43 +114,51 @@ textarea {
     flex-direction: column;
   }
 
+  .nombrecompleto,
+  .email,
+  .telefono,
+  .mensaje {
+    width: 442px;
+  }
+
   .enviar-container {
     text-align: end;
-    width: 80vw;
+    width: 442px;
   }
   .enviar {
-    width: 12.875rem;
+    width: 206pxx;
   }
 }
 /*DESKTOP*/
 @media all and (min-width: 1200px) {
   .parrafocontacto {
+    width: 601px;
     font-size: 16px;
     line-height: 24px;
+  }
+  .datos-personales,
+  .mensaje-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .private-info {
+    display: flex;
+    flex-direction: row;
   }
 
   .parrafo-small,
   .nombrecompleto,
   .mensaje,
   .enviar-container {
-    width: 80vw;
+    width: 601px;
   }
   .email {
-    width: 50vw;
+    width: 395px;
+    margin-right: 44px;
   }
   .telefono {
-    width: 20vw;
-  }
-  .private-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-  }
-  .container-email {
-    width: 50vw;
-  }
-  .container-telephone {
-    width: 20vw;
+    width: 162px;
   }
 }
