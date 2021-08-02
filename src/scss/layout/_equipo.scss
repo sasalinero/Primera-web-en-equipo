@@ -1,6 +1,5 @@
 .equipo {
   align-items: center;
-  margin-bottom: 30px;
 }
 
 #team-section {
@@ -15,15 +14,6 @@
 /* HEADER */
 @media screen and (min-width: 768px) {
   #team-section {
-    margin-top: -70px;
-  }
-}
-
-/* DESKTOP MEDIAQUERIES */
-/* HEADER */
-
-@media screen and (min-width: 1200px) {
-  #team-section {
-    margin-top: -30px;
+    margin-top: 35px;
   }
 }
