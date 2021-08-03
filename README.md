@@ -14,14 +14,14 @@ El stack tecnológico aplicado en este repositorio es:
 
 ## Fases de proyecto:
 
-# Primera. Versión móvil de la web
+### Primera. Versión móvil de la web
 - Desarrollar la versión para móvil de la web (página principal) con HTML y CSS.
 - Crear el contenido de la web: textos e imágenes.
 - Crear la infraestructura necesaria: repositorio en GitHub y con acceso para todos los miembros del equipo.
 - Publicar web en GitHub Pages.
 
 
-## Segunda. Versión responsive de la web
+### Segunda. Versión responsive de la web
 - Hacer la web para el resto de tamaños de pantalla (tablet, desktop)
 
 ### Tercera. Mejora de tecnología
@@ -32,11 +32,11 @@ El stack tecnológico aplicado en este repositorio es:
    - Grid en la sección de "quiénes somos"
    - Añadir animaciones y transiciones
 
-#### Cuarta. Formulario de contacto
+### Cuarta. Formulario de contacto
 - Realizar el formulario de contacto para todos los dispositivos.
 - Hacer que funcione el envío usando el servicio formspree.io.
 
-# Plantilla de proyecto utilizada: Adalab web starter kit
+## Plantilla de proyecto utilizada: Adalab web starter kit
 
 Plantilla creada en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
 
@@ -58,7 +58,7 @@ En el Kit hay 3 tipos de ficheros y carpetas:
 npm install
 ```
 
-#### Pasos para arrancar el proyecto:
+### Pasos para arrancar el proyecto:
 
 Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
 
@@ -72,9 +72,9 @@ Este comando:
 - También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
 - También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
    - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+  # - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
 
-# Estructura de carpetas
+## Estructura de carpetas
 
 La estructura de carpetas tiene esta pinta:
 
