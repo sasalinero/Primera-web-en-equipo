@@ -6,11 +6,20 @@
   background-size: cover;
 }
 
+/* TABLET MEDIAQUERIES */
 @media all and (min-width: 768px) {
   .herocontact-section {
     background-image: url(../images/contact-hero.jpg);
-    height: 400px;
+    height: 421px;
     background-size: cover;
     background-position: center bottom;
+  }
+}
+
+/* DESKTOP MEDIAQUERIES */
+@media screen and (min-width: 1200px) {
+  .herocontact-section {
+    background-image: url(../images/contact-hero-super.jpg);
+    height: 480px;
   }
 }

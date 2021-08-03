@@ -2,6 +2,14 @@
   align-items: center;
   margin-bottom: 30px;
   margin-top: 30px;
+  padding: 10px;
+
+  /* TABLET MEDIAQUERIES */
+  @media screen and (min-width: 768px) {
+    .contacto {
+      margin-top: 35px;
+    }
+  }
 }
 
 .contacto-section {
@@ -11,6 +19,7 @@
   text-transform: uppercase;
   text-align: center;
 }
+
 .parrafocontacto {
   font-size: 16px;
   font-family: $opensans-font;
@@ -21,6 +30,7 @@
   width: 80vw;
   margin: auto;
 }
+
 .parrafo-small {
   width: 100%;
   margin: 15px 0 58px;
@@ -30,11 +40,12 @@
   color: $color-gunmetal;
   text-align: center;
 }
+
 .form-asterisk {
   color: $color-aqua;
 }
-/*FORMULARIO*/
 
+/*FORMULARIO*/
 input,
 textarea {
   /* -webkit-appearance: none;
@@ -57,6 +68,7 @@ textarea {
   align-items: center;
   justify-content: center;
 }
+
 .datos-personales,
 .mensaje-container {
   border: transparent;
@@ -101,7 +113,6 @@ textarea {
 }
 
 /*TABLET*/
-
 @media all and (min-width: 768px) {
   .parrafocontacto,
   .parrafo-small {
@@ -129,6 +140,7 @@ textarea {
     width: 206pxx;
   }
 }
+
 /*DESKTOP*/
 @media all and (min-width: 1200px) {
   .parrafocontacto {
@@ -136,6 +148,7 @@ textarea {
     font-size: 16px;
     line-height: 24px;
   }
+
   .datos-personales,
   .mensaje-container {
     display: flex;
@@ -143,6 +156,7 @@ textarea {
     align-items: center;
     justify-content: space-between;
   }
+
   .private-info {
     display: flex;
     flex-direction: row;
@@ -154,10 +168,12 @@ textarea {
   .enviar-container {
     width: 601px;
   }
+
   .email {
     width: 395px;
     margin-right: 44px;
   }
+
   .telefono {
     width: 162px;
   }

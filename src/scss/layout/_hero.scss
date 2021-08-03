@@ -17,6 +17,7 @@
   margin-top: 0px;
   transform: translateY(1px);
 }
+
 .claim {
   padding: 15px;
   font-family: $opensans-font;
@@ -24,7 +25,6 @@
 }
 
 /* TABLET MEDIAQUERIES */
-/* HEADER */
 @media all and (min-width: 768px) {
   .Hero {
     background-image: url(../images/hero.jpg);
@@ -37,6 +37,7 @@
     margin-left: 45px;
     background-color: rgba(255, 255, 255, 0.8);
   }
+
   .claim {
     text-align: left;
     font-size: 18px;
@@ -45,10 +46,9 @@
 }
 
 /* DESKTOP MEDIAQUERIES */
-/* HEADER */
 @media screen and (min-width: 1200px) {
   .Hero {
-    height: 550px;
+    height: 480px;
   }
 
   .claim {
@@ -59,9 +59,8 @@
 }
 
 /* SUPER DESKTOP MEDIAQUERIES */
-/* HEADER */
 @media screen and (min-width: 2500px) {
   .Hero {
-    height: 700px;
+    height: 600px;
   }
 }

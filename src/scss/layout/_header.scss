@@ -79,8 +79,6 @@ a {
 }
 
 /* SMALL SIZE MEDIAQUERIES */
-/* HEADER */
-
 @media screen and (max-width: 315px) {
   .item .linkHeader {
     font-size: 12px;
@@ -88,8 +86,6 @@ a {
 }
 
 /* TABLET MEDIAQUERIES */
-/* HEADER */
-
 @media screen and (min-width: 768px) {
   .header {
     width: 100%;
@@ -126,8 +122,6 @@ a {
 }
 
 /* DESKTOP MEDIAQUERIES */
-/* HEADER */
-
 @media screen and (min-width: 1200px) {
   .tittle {
     margin-left: 142px;
