@@ -1,7 +1,7 @@
 # Proyecto grupal módulo-1  Contact us by DIV-as
 
-Este repositorio recoge el proyecto grupal del módulo 1 del curso intensivo de programación front-end impartido en Adalab. El curso está enfocado a mujeres sin conocimientos previos de programación.
-En este proyecto hemos desarrollado nuestra primera web colaborativa. Para ello hemos creado una web con la información social de todos los miembros del equipo. ¡Esta ha sido nuestra primera experiencia de trabajo en equipo relacionada con programación!
+Este repositorio recoge el proyecto grupal del módulo 1 del curso intensivo de programación front-end impartido en Adalab. El curso está enfocado a mujeres sin conocimientos previos de programación. <br>
+En este proyecto hemos desarrollado nuestra primera web colaborativa. Para ello hemos creado una web con la información social de todos los miembros del equipo. ¡Esta ha sido nuestra primera experiencia de trabajo en equipo relacionada con programación!<br>
 La web consta de varias páginas:
 - una página principal (Home) con la información principal sobre el equipo.
 - una página de contacto con un formulario para que puedan ponerse en contacto con nosotras.
