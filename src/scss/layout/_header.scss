@@ -69,6 +69,15 @@ a {
   text-transform: $mayus;
 }
 
+/* SMALL SIZE MEDIAQUERIES */
+/* HEADER */
+
+@media screen and (max-width: 315px) {
+  .item .linkHeader {
+    font-size: 12px;
+  }
+}
+
 /* TABLET MEDIAQUERIES */
 /* HEADER */
 
