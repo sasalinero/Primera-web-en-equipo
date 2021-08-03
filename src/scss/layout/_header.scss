@@ -35,6 +35,15 @@
   }
 }
 
+.linkDivas {
+  text-decoration: none;
+  padding: 10px 10px;
+
+  &:visited {
+    color: white;
+  }
+}
+
 .menuHeader {
   background-color: $color-aqua;
   height: 45px;

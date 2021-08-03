@@ -1,8 +1,8 @@
-.equipo {
+#equipo {
   align-items: center;
 }
 
-#team-section {
+.team-section {
   font-family: "Rubik", sans-serif;
   font-size: 24px;
   color: #14d9c4;
@@ -13,7 +13,7 @@
 /* TABLET MEDIAQUERIES */
 /* HEADER */
 @media screen and (min-width: 768px) {
-  #team-section {
+  .team-section {
     margin-top: 35px;
   }
 }

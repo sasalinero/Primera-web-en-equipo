@@ -1,13 +1,9 @@
 .Hero {
-  // width: 100%;
   height: 421px;
   background-image: url(../images/herom.jpg);
-  /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
   background-position: 50% right;
   background-repeat: no-repeat;
-  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
   background-attachment: fixed;
-  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -16,7 +12,6 @@
 
 .text-rectangle {
   background-color: white;
-  // position: relative;
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 0px;
@@ -24,7 +19,6 @@
 }
 .claim {
   padding: 15px;
-  // position: relative;
   font-family: $opensans-font;
   font-weight: bold;
 }
@@ -53,10 +47,8 @@
 /* DESKTOP MEDIAQUERIES */
 /* HEADER */
 @media screen and (min-width: 1200px) {
-  .hero {
+  .Hero {
     height: 550px;
-    background-image: url(../images/hero.jpg);
-    background-position: 50% bottom;
   }
 
   .claim {
@@ -71,7 +63,5 @@
 @media screen and (min-width: 2500px) {
   .Hero {
     height: 700px;
-    // background-image: url(../images/hero.jpg);
-    // background-position: 50% bottom;
   }
 }

@@ -2,13 +2,6 @@
   background-color: rgba(184, 184, 185, 0.2);
 }
 
-/* .contenedor {
-   position: absolute;
-  box-sizing: border-box;
-  left: 50%;
-  top: 50%; 
-} */
-
 .rectangle {
   background-color: $font-menu;
   width: 30px;
@@ -36,31 +29,15 @@
 /* TABLET MEDIAQUERIES */
 @media screen and (min-width: 768px) {
   .fortalezasDebilidades {
-    // display: flex;
-    // padding: 45px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 15px;
   }
-  /* .fortalezasDebilidades1 {
-    padding-left: 122px;
-    padding-right: 22px;
-    width: 50%;
-  }
-  .fortalezasDebilidades2 {
-    padding-right: 122px;
-    padding-left: 22px;
-    width: 50%;
-  } */
 }
 
 /* DESKTOP MEDIAQUERIES */
 @media screen and (min-width: 1200px) {
-  // .fortalezasDebilidades {
-  //   display: flex;
-  // }
-
   fortalezasDebilidades1 {
     padding-left: 122px;
     padding-right: 22px;
