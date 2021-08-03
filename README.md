@@ -71,8 +71,8 @@ Este comando:
 - **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
 - También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
 - También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-  # - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+- Convierte los ficheros SASS en CSS.
+- Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
 
 ## Estructura de carpetas
 
